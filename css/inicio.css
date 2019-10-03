@@ -5,30 +5,31 @@ rgba(110,51,102,0.8); */
 /* Fuentes 
 font-family: 'Lato', sans-serif;
 font-family: 'Oswald', sans-serif;*/
-section .contenedor{
+section .contenedor{ 
 	position: relative;
-    display: inline-block;
+	float:left;
+	display: block;
  }
- section .contenedor .perro{
- 	
- }
-section .centrado{
-	max-width: 960px;
-	font-family: 'Oswald', sans-serif;
+ section .contenedor p{
+ 	font-family: 'Oswald', sans-serif;
     position: absolute;
     top: 20%;
     left: 50%;
+    width: 960px;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 43px;
+    font-size: 48px;
 	opacity: 1;
 	font-weight: 200;
 	letter-spacing: 5px;
-	height: 70px;
+	height: 80px;
 	margin: 0 auto;
-	line-height: 50px;
+	text-align: center;
+	line-height: 80px;
 }
-section .centrado::before{
+
+
+section .contenedor p::before{
 	content: ' ';
 	height: 2px;
 	background-color: white;
@@ -36,22 +37,23 @@ section .centrado::before{
 	display: block;
 	opacity: 0.5;
 }
-section .centrado::after{
+section .contenedor p::after{
 	content: ' ';
 	height: 2px;
 	background-color: white;
-	max-width: 900px;
+	max-width: 960px;
 	display: block;
 	opacity: 0.5;
-	margin-top:3px;
 }
-section .contenedor .centrado2{
-	max-width: 960px;
-	width: 900px;
-	font-family: 'Oswald', sans-serif;
-    position: absolute;
-    top: 60%;
+
+
+.bienvenida{
+	position: absolute;
+    top: 420px;
     left: 50%;
+	width: 940px;
+	float-left;
+	font-family: 'Oswald', sans-serif;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
@@ -63,17 +65,17 @@ section .contenedor .centrado2{
 	line-height: 35px;
 	background-color: rgba(110,51,102,0.8);
 	border-radius: 10px;
-	padding: 0px 15px 90px 15px;
+	padding: 20px 15px 90px 15px;
 	margin-top: 0;
 }
 .botonservicios{
+	position: absolute;
+    top: 70%;
+    left: 33.5%;
 	width: 300px;
 	opacity: 0.9;
 	display: block;
-	position: absolute;
-    top: 73%;
-    left: 33%;
-    font-size: 18px;
+	font-size: 18px;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     color:white;

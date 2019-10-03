@@ -47,7 +47,7 @@ header .informacion{
 	color: white;
 	font-weight: 200;
 	text-align: center;
-	padding: 3px 10px 23px 10px;
+	padding: 3px 0px 23px 10px;
 	background-color: rgba(110,51,102,0.3);
 	margin-top:8px;
 	margin-right:5px;
@@ -78,7 +78,6 @@ nav ul{
 	margin-top: 0px;
 	padding: 0;
 	height: 40px;
-	width: 960px;
 }
 nav ul li{
 	display: inline-block;
