@@ -1,0 +1,36 @@
+<!-- 	.contenedor1{
+	padding-top: 35px;
+	height: 180px;
+	background-color:rgba(110,51,102,0.4);
+	display: block;
+}
+.contenedor2{
+	background-color: red;
+}
+
+.nuestrosservicios{
+	line-height: 60px;
+	width: 100%;
+	float:left;
+	margin: 0 auto;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	letter-spacing: 10px;
+	font-weight:400;
+	padding: 0em;
+	text-align: center;
+}
+.contamos{
+	display: block;
+	margin-top: 0;
+	font-family: 'Oswald', sans-serif;
+	color:rgba(9,51,102,1);
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight:100;
+	color: white;
+	padding:50px 50px;
+}
+.nuestrosservicios:hover {
+  
+}
