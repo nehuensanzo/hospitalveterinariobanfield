@@ -1,0 +1,159 @@
+.contenedor1{
+	height: 260px;
+	background-color:rgba(110,51,102,0.4);
+	display: block;
+}
+.contenedor1 h1{
+	margin: 0 auto;
+	display: block;
+	float:left;
+	line-height: 60px;
+	width: 100%;
+	float:left;
+	margin-top: 20px;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	letter-spacing: 10px;
+	font-weight:400;
+	text-align: center;
+}
+.contenedor1 p {
+	display: block;
+	float:left;
+	padding: 0;
+	width: 960px;
+	line-height: 30px;
+	display: block;
+	height:130px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight:100;
+	color: white;
+	font-size: 1.2em;
+	letter-spacing: 3px;
+}
+.contenedor2{
+	height: 2000px;
+	background-color:rgba(110,51,102,0.5);
+	display: block;
+}
+.contenedor2 h1{
+	margin: 0 auto;
+	display: block;
+	float:left;
+	line-height: 60px;
+	width: 100%;
+	float:left;
+	margin-top: 20px;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	letter-spacing: 10px;
+	font-weight:400;
+	text-align: center;
+}
+.contenedor2 h3{
+	margin: 0 auto;
+	display: block;
+	float:left;
+	line-height: 60px;
+	width: 100%;
+	float:left;
+	margin-top: 5px;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	letter-spacing: 5px;
+	font-weight:200;
+	text-align: center;
+}
+.contenedor2 p{
+	display: block;
+	float:left;
+	padding: 0;
+	width: 960px;
+	line-height: 30px;
+	display: block;
+	height:130px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight:100;
+	color: white;
+	font-size: 1.2em;
+	letter-spacing: 3px;
+	margin:0;
+}
+.personas{
+	overflow: hidden;
+	display: block;
+	float:left;
+	
+}
+
+.persona{
+	font-family: 'Oswald', sans-serif;
+	width: 48%;
+	height: 850px;
+	float: left;
+	margin-left: 30px;
+	box-sizing: border-box;
+	font-size: 25px;
+	margin-right: 0px;
+	margin-left: 20px;
+	background-color: rgba(110,51,102,0.2);
+	border-radius: 2%;
+	margin-bottom: 10px;
+}
+
+.persona figure{
+	text-align: center;
+	margin:0;
+	width: 100%;
+}
+
+.persona figure img{
+	border-radius: 2%;
+	box-shadow: 0 0 10px rgba(110,51,102,0.7);
+	width: 100%;
+
+}
+
+.persona h5,
+.persona h6{
+	text-align: center;
+	color: white;
+	font-weight: 100;
+	margin: 0.8em 0.8em;
+	border: 2px solid white;
+	padding: 12px 0px;
+	border-radius: 10px;
+
+}
+
+.persona h5{
+	font-size: 0.9em;
+}
+
+.persona h6{
+	font-size: 0.8em;
+	margin-bottom: 1em;
+
+}
+
+.persona p{
+	font-size: 0.7em;
+	color: white;
+	margin-left: 5px;
+	width: 450px;
+	height: 150px;
+
+	
+}
+
+.persona:first-child{
+	margin-left: 10px;
+}
+
+
+
+

@@ -9,29 +9,34 @@ font-family: 'Oswald', sans-serif;*/
 	float:left;
 	display: block;
 	opacity: 1;
-	background-image: url(../img/labrador2.png);
-	height: 360px;
+	background-image: url(../img/1.jpg);
+	height: 500px;
 	width: 100%;
+	background-size: cover;
+	padding-top: 30px;
 }
 .contenedor p{
 
-	width:480px;
+	width:390px;
 	display: block;
   	float: left;
   	font-family: 'Oswald', sans-serif;
-    color: rgba(110,51,102,0.8);
-    font-size: 48px;
+    color: white;
+    font-size: 40px;
 	font-weight: 200;
 	letter-spacing: 3px;
 	line-height: 55px;
-	margin: 30px 700px 12px 12px;
+	margin: 80px 700px 12px 70px;
+	background-color: rgba(110,51,102,0.5);
+	padding: 0px 10px;
+
 
 }
 .contenedor p::before{
 	content: ' ';
 	height: 4px;
 	background-color: white;
-	width: 460px;
+	width: 390px;
 	display: block;
 	opacity: 0.7;
 }
@@ -39,13 +44,13 @@ font-family: 'Oswald', sans-serif;*/
 	content: ' ';
 	height: 4px;
 	background-color: white;
-	max-width: 360px;
+	max-width: 390px;
 	display: block;
 	opacity: 0.7;
 }
 
 .botonservicios{
-	width: 330px;
+	width: 348px;
 	opacity: 0.9;
 	display:block;
 	float: left;
@@ -60,7 +65,7 @@ font-family: 'Oswald', sans-serif;*/
     transition: all 1s ease;
     margin: 0 auto;
     margin-top: 0px;
-    margin-left: 12px;
+    margin-left: 95px;
     background-color: white;
     letter-spacing: 4px;
     padding: 6px;
@@ -72,112 +77,88 @@ font-family: 'Oswald', sans-serif;*/
 }
 /*----------------------------*/
 .color{
-	background-color:rgba(110,51,102,0.5);
+	background-color: rgba(110,51,102,0.6);
+	
+
 }
 .bannermedio{
-	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	background: linear-gradient(top, black, white);
 	color:white;
-	letter-spacing: 7px;
-	font-weight: 200;
 	text-align: center;
-	line-height: 28px;
+	line-height: 30px;
 	display: inline-block;
 	margin-bottom: 0;
 	width: 960px;
-	height: 250px;
+	height: 150px;
 }
 
 .bannermedio span {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	margin:20px;
 	color:white;
-	letter-spacing: 2px;
-	font-weight: 400;
+	letter-spacing: 5px;
+	font-weight: 200;
 	line-height: 28px;
 	display: inline-block;
 	margin-bottom: 0;
 	width:880px;
-	height: 135px;
 }
-.internacion{
-	border-radius: 15px;
-	height: 63px;
-	padding-top: 15px;
-	padding-bottom: 5px;
-	width: 30%;
-	display: block;
-	float: left;
-	background-color: rgba(110,51,102,0.8);
-}
-.alimentos{
-	border-radius: 15px;
-	height: 63px;
-	width: 30%;
-	display: block;
-	padding-top: 15px;
-	padding-bottom: 5px;
-	float: left;
-	background-color: rgba(110,51,102,0.7);
-}
-.accesorios{
-	border-radius: 15px;
-	height: 56px;
-	width: 30%;
-	display: block;
-	padding-top: 27px;
-	padding-bottom: 0px;
-	float: left;
-	background-color: rgba(110,51,102,0.6);
-}
-.internacion,
-.alimentos,
-.accesorios {
-	margin:2px 15px;
 
-}
 /*----------------------------*/
 .contenedor2{
-	display: block;
-	float: left;
+	background-color: rgba(110,51,102,0.2);
 	width: 100%;
-	height: 620px;
-	background-image: url(../img/2.png);
-	opacity: 0.9;
-}
-.contenedor2 p::before{
-	content: ' ';
-	height: 2px;
-	background-color: white;
-	max-width: 960px;
-	display: block;
-	opacity: 0.5;
-}
-.contenedor2 p::after{
-	content: ' ';
-	height: 2px;
-	background-color: white;
-	max-width: 960px;
-	display: block;
-	opacity: 0.5;
-}
-.circulo1{
-	position: relative;
-	margin:50px;
+	font-family: 'Oswald', sans-serif;
+	height: 465px;
 	display: inline-block;
-	float: left;
-	z-index: 1;
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
-	background-color: rgba(110,51,102,0.8);
-	border: 2px dotted white;
-	animation: circulo 70s linear infinite;
+	margin: auto;
+	}
+
+.contenedor2 .card{
+	width: 305px;
+	height: 430px;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	text-align: center;
+	transition: all 0.7s;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
 }
-@keyframes circulo {
-	0% {
-		transform: rotate(0deg);
-	}
-	100%{
-		transform: rotate(360deg);
-	}
+
+.contenedor2 .card:hover{
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor2 .card img{
+	width: 305px;
+	height: 220px;
+}
+ 
+.contenedor2 .card h4{
+	color: rgba(110,51,102,0.9);
+	font-weight: 600;
+	margin: 5px 0;
+	letter-spacing: 0.7px;
+
+}
+.contenedor2 .card p{
+	background-color: rgba(110,51,102,0.8);
+	padding: 1rem 1rem;
+	font-size: 16px;
+	font-weight: 100;
+	margin-top: 0;
+	color:white;
+	letter-spacing: 0.5px;
+	margin-bottom: 10px;
+}
+.contenedor2 .card a{
+	font-weight: 500;
+	text-decoration: none;
+	color: rgba(110,51,102,0.8);
+	margin-top: 0px;
 }

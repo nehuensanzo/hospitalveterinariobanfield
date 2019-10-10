@@ -20,7 +20,7 @@ body{
 	line-height: 20px;
 	margin: 0px;
 	font-family: 'Oswald', sans-serif;
-}
+ }
 header{
 	background-color: rgba(110,51,102,0.8);
 	padding: 0;
@@ -102,6 +102,123 @@ nav ul li a:hover{
 	opacity: 1;
 	letter-spacing: 10px;
 }
+
+/*-------------------------------------------------*/
+.prefooter{
+	margin-top: 0;
+}
+.logoehistoria{
+	display: block;
+	float:left;
+	max-width: 33%;
+	margin-left: 25px;
+	margin-top: 28px;
+	margin-bottom: 25px;
+}
+.logoehistoria p{
+	line-height: 25px;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 5px;
+	color: rgba(110,51,102,0.9);
+
+}
+
+.logoehistoria p::before{
+	content: ' ';
+	height: 1px;
+	background-color: rgba(110,51,102,0.2);
+	width: 250px;
+	display: block;
+	opacity: 0.7;
+	margin-bottom: 5px;
+
+
+}
+.logoehistoria p::after{
+	content: ' ';
+	height: 1px;
+	background-color: rgba(110,51,102,0.2);
+	max-width: 250px;
+	display: block;
+	opacity: 0.7;
+	margin-bottom: 5px;
+}
+
+.mail{
+	width: 30%;
+	display: block;
+	float:left;
+	margin-left:80px;
+	margin-bottom:17px;
+	margin-top: 63px;
+}
+.mail a{
+	text-decoration: none;
+	color: rgba(110,51,102,0.8);
+	letter-spacing: 3px;
+
+}
+.historia2{
+	display: block;
+	float:left;
+	width: 40%;
+
+}
+.historia2 p{
+	line-height: 25px;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 5px;
+	color: rgba(110,51,102,0.9);
+	margin-left: 70px;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+.historia2 p::before{
+	content: ' ';
+	height: 1px;
+	background-color: rgba(110,51,102,0.2);
+	width: 250px;
+	display: block;
+	opacity: 0.7;
+	margin-bottom: 5px;
+
+
+}
+.historia2 p::after{
+	content: ' ';
+	height: 1px;
+	background-color: rgba(110,51,102,0.2);
+	max-width: 250px;
+	display: block;
+	opacity: 0.7;
+	margin-bottom: 5px;
+}
+
+.telefono .icon-phone:before {
+	font-family: 'icomoon';
+	font-size: 50px;
+	color: rgba(110,51,102,0.9);
+	display: inline-block;
+	margin-top: 28px;
+	margin-left: 128px;
+}
+
+.telefono p{
+	display: block;
+	width: 200px;
+	float: left;
+	margin-left: 80px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	color: rgba(110,51,102,0.7);
+	width: 15%;
+	line-height: 40px;
+	margin-top: 10px;
+	font-weight: 200;
+
+}
+
 footer{
 	font-family: 'Lato', sans-serif;
 	height: 35px;
@@ -149,7 +266,7 @@ footer a{
 	transition: all 1s ease;
 }
 .holder{
-	width: 960px;
+	width:  960px;
 	margin: 0 auto;
 }
 .activo{

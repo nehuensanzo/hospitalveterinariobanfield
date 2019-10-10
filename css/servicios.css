@@ -1,11 +1,7 @@
-<!-- 	.contenedor1{
+.contenedor1{
 	padding-top: 35px;
 	height: 180px;
 	background-color:rgba(110,51,102,0.4);
-	display: block;
-}
-.contenedor2{
-	background-color: red;
 }
 
 .nuestrosservicios{
@@ -24,7 +20,6 @@
 	display: block;
 	margin-top: 0;
 	font-family: 'Oswald', sans-serif;
-	color:rgba(9,51,102,1);
 	text-align: center;
 	letter-spacing: 1px;
 	font-weight:100;

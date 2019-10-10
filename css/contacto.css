@@ -1,6 +1,161 @@
 
-iframe{
-	margin:0 auto;
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?yiywxm');
+  src:  url('../fonts/icomoon.eot?yiywxm#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?yiywxm') format('truetype'),
+    url('../fonts/icomoon.woff?yiywxm') format('woff'),
+    url('../fonts/icomoon.svg?yiywxm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: 
+ }
+.contenedor{
+	margin: 0 auto;
+	background-image: url(../img/2.png);
+	height: 500px;
+	margin: 0;
+	background-size: cover;
+}
+.columna1{
+	display: inline-block;
+	float: left;
+	width: 450px;
+}
+.columna1 h2{
+	display: block;
+	float: left;
+	width: 450px;
+	color: rgba(110,51,102,0.9);
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 15px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: 'Oswald', sans-serif;
+	margin-left: 15px;
+	margin-top: 0;
+	padding-top:22px;
 }
 
- 
+form{
+	filter: grayscale(50%);
+	opacity: 1;
+	font-family: 'Oswald', sans-serif;
+	display: block;
+	float:left;
+	width: 450px;
+	margin: auto;
+	background: rgba(110,51,102,0.6);
+	padding: 25px 20px;
+	box-sizing: border-box;
+	border-radius: 7px;
+	margin:10px 15px 25px 15px;
+	transition: all 0.3s ease;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+	letter-spacing: 1px;
+	border-radius: 4px;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+	resize: none;
+}
+#boton{
+	background-color:rgba(110,51,102,0.5);
+	color: white;
+	font-size: 20px;
+	margin-bottom: 0;
+	padding: 15px;
+	box-sizing: border-box;
+	border: 1px solid white;
+}	
+#boton:hover{
+	cursor: pointer;
+ }
+ form:hover{
+ 	 filter: grayscale(0%);
+ }
+  .columna2{
+	display: inline-block;
+	float: right;
+	width: 47%;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+.columna2 h2{
+	color: rgba(110,51,102,0.9);
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 5px;
+	line-height: 30px;
+	font-weight: 400;
+	margin-top: 0;
+	padding-top:22px;
+	width: 90%;
+}
+.telefono2,
+.resu,
+.facebook,
+.instagram{
+	display: block;
+	float: left;
+	width: 47%;
+	border-radius: 7px;
+	margin-right: 5px;
+	background: rgba(110,51,102,0.6);
+	filter: grayscale(50%);
+	transition: all 0.3s ease;
+	color:white;
+	font-size: 30px;
+}
+.telefono2 {
+	display: block;
+	float: left;
+	margin-top:20px;
+	padding: 80px 0;
+	cursor:pointer;
+}
+.resu {
+	display: block;
+	float: left;
+	margin-top:20px;
+	padding: 50px 0 50px 0;
+	line-height: 40px;
+	
+}
+.facebook {
+	display: block;
+	float: left;
+	margin-top:20px;
+	padding: 83px 0;
+	
+}
+.instagram {
+	display: block;
+	float: left;
+	margin-top:20px;
+	padding: 83px 0;
+	
+}
+
+.telefono2:hover,
+.resu:hover,
+.facebook:hover,
+.instagram:hover{
+	filter: grayscale(0%);
+	transition: all 0.3s ease;
+}
+iframe{
+	margin:0 auto;
+	max-width: 100%;
+
+}
