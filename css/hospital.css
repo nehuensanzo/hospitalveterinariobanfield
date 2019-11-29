@@ -77,9 +77,8 @@ nav{
 nav ul{
 	margin: 0 auto;
 	list-style: none;
-	text-align: left;
-	margin-top: 0px;
-	padding: 0;
+	text-align: center;
+	padding: 3px;
 	height: 40px;
 }
 nav ul li{
@@ -94,15 +93,36 @@ nav ul li a{
 	display: block;
 	font-size: 1.3em;
 	color: white;
-	transition: all 1.2s ease;
+	transition: all 0.7s ease;
 	opacity: 0.9;
 }
 nav ul li a:hover{
 	background-color:  rgba(110,51,102,0.5);
 	opacity: 1;
 	letter-spacing: 10px;
+	
+
 }
 
+.home nav ul li a.home,   
+/*primero declara la class del body, 
+luego el nav y despues la clase del nav*/
+.nosotros nav ul li a.nosotros,
+.servicios nav ul li a.servicios,
+.productos nav ul li a.productos,
+.contacto nav ul li a.contacto{
+	background-color:  white;
+	opacity: 1;
+	letter-spacing: 10px;
+	color:rgba(110,51,102,0.7);
+	font-weight:bold;
+
+}
+
+.home nav ul li a.home{
+	letter-spacing: 15px;
+
+}  
 /*-------------------------------------------------*/
 .prefooter{
 	margin-top: 0;

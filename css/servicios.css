@@ -1,6 +1,14 @@
+
+/* Paleta de colores
+Color logo #663366 
+rgba(110,51,102,0.8);*/
+/* Fuentes 
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+
 .contenedor1{
 	padding-top: 35px;
-	height: 180px;
+	height: 240px;
 	background-color:rgba(110,51,102,0.4);
 }
 
@@ -18,14 +26,67 @@
 }
 .contamos{
 	display: block;
-	margin-top: 0;
+	float:left;
+	padding: 0;
+	width: 960px;
+	line-height: 30px;
+	display: block;
+	height:130px;
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
 	letter-spacing: 1px;
 	font-weight:100;
 	color: white;
-	padding:50px 50px;
+	font-size: 1.2em;
+	letter-spacing: 3px;
 }
-.nuestrosservicios:hover {
-  
+
+.contenedor2{
+	padding-top: 35px;
+	height: 440px;
+	background-color:rgba(110,51,102,0.6);
 }
+
+.centro{
+	width: 150px;
+	display: block;
+	float: left;
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 0;
+}
+
+.contenedor3{
+	padding-top: 35px;
+	height: 410px;
+	background-color:rgba(110,51,102,0.4);
+}
+.contenedor4{
+	padding-top: 35px;
+	height: 290px;
+	background-color:rgba(110,51,102,0.6);
+}
+.contenedor5{
+	padding-top: 35px;
+	height: 290px;
+	background-color:rgba(110,51,102,0.4);
+}
+.contenedor6{
+	padding-top: 35px;
+	height: 320px;
+	background-color:rgba(110,51,102,0.6);
+}
+.contenedor7{
+	padding-top: 35px;
+	height: 320px;
+	background-color:rgba(110,51,102,0.4);
+}
+.contenedor8{
+	padding-top: 35px;
+	height: 320px;
+	background-color:rgba(110,51,102,0.6);
+}
+
+
+
+

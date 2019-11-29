@@ -19,40 +19,26 @@
 	<link rel="stylesheet" href="css/contacto.css">
 	<link rel="stylesheet" href="css/hospital.css">
 </head>
-<body>
-	<header>
-		<div class="holder">
-					<img class="logo" src="img/logo1.png" width="80" alt="logohospital"/>
-				<div class="leyenda">
-				<span>HOSPITAL VETERINARIO BANFIELD</span>
-				</div>
-			<div class="informacion">
-				<span class="icon-phone"></span>
-				<span>(011)4276-2412</span><br>
-				<span class="icon-location2"></span>
-				<span>CAMINO PRESIDENTE PERON 3001 - BANFIELD</span> <br>
-				<span class="icon-clock2"></span>
-				<span>TODOS LOS DIAS DE 9 A 20HS</span>
-			</div>
-		</div>
-	</header>
-	<nav>
-		<div class="holder">
-			<ul><li><a href="index.html">INICIO</a></li><li><a href="nosotros.html">NOSOTROS</a></li><li><a href="servicios.html">SERVICIOS</a></li><li> <a href="productos.html">PRODUCTOS</a></li><li><a class="activo" href="contacto.html">CONTACTO</a></li></ul>
-		</div>	
-	</nav>
+<body class="contacto">
+	<?php include ('inc/cabezal.php'); ?>
 	<section>
 		<div class="contenedor">
 			<div class="holder">
 				<div class="columna1">
 					<h2>COMPLETE EL SIGUIENTE FORMULARIO</h2>
-					<form action="" method="" class="formulario">
-						<input type="text" name="Nombre" placeholder="Nombre">
-						<input type="text" name="Correo" placeholder="@Correo"> 
-						<input type="text" name="Telefono" placeholder="Teléfono">  
+					<a name="contacto"></a>
+					<form action="procesador_formulario.php" method="POST" class="formulario">
+
+						<input type="text" name="Nombre" placeholder="Nombre" required>
+						<input type="text" name="Correo" placeholder="@Correo"required> 
+						<input type="text" name="Telefono" placeholder="Teléfono"required>  
 						<textarea name="Mensaje" placeholder="Escriba aquí su mensaje"></textarea>
-						<input type="button" value="ENVIAR" id="boton">
+						<input type="submit" value="ENVIAR" id="boton">
 					</form>
+					<?php 
+			if(isset($_GET['envio']) && $_GET['envio']=='ok'){ ?>
+				<div class="msg">El mensaje se envío correctamente</div>
+			<?php } ?>
 				</div>
 				<div class="columna2">
 					<h2>OTRAS VÍAS DE CONTACTO</h2>
@@ -74,7 +60,6 @@
 						<span class="instagram">INSTAGRAM</span>
 						</a>
 					</div>
-					
 				</div>
 			</div>
 		</div>	
@@ -84,29 +69,8 @@
 	</section>
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.831053902582!2d-58.437378484385036!3d-34.73465268042568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd96845c3571%3A0x141490bdb49a66f1!2sHospital%20Veterinario%20Banfield!5e0!3m2!1ses-419!2sar!4v1569974877950!5m2!1ses-419!2sar" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </section>
-	<div class="holder">
-				<div class="logoehistoria">
-					<img class="logo" src="img/logo2.png" width="80" alt="logohospital"/>
-					<p> CLÍNICA <br/> CENTRO DE IMÁGENES <br/> LABORATORIO <br/> PET SHOP </p>
-				</div>	
-				<div class="mail">
-					<a href="mailto:cuenta@deemail.com">/resultadoshvb@gmail.com</a>
-				</div>
-				<div class="historia2">
-					<p> VACUNACIONES <br/> CERTIFICADOS DE SALUD <br/> MICROCHIP <br/> CIRUGÍA </p>
-				</div>	
-				<div class="telefono">
-					<span class="icon-phone"></span>
-					<p>CONSULTAS 	<br/> 4276-2412</p>
-				</div>
-		</div>
-	<footer>
-		<div class="holder">
-			<p>ALL RIGHTS RESERVED. WEB BY NEHUEN SANZO</p>
-			<a href="https://es-la.facebook.com/" class="icon-facebook" target="_blank"></a>
-			<a href="https://www.instagram.com/?hl=es-la" class="icon-instagram" target="_blank"></a>
-		</div>
-	</footer>
+	
+	<?php include('inc/pie.php'); ?>
 		<script> </script>
 	</body>
 </html>

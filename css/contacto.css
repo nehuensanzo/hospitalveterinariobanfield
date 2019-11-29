@@ -13,7 +13,7 @@
 .contenedor{
 	margin: 0 auto;
 	background-image: url(../img/2.png);
-	height: 500px;
+	height: 530px;
 	margin: 0;
 	background-size: cover;
 }
@@ -50,7 +50,7 @@ form{
 	padding: 25px 20px;
 	box-sizing: border-box;
 	border-radius: 7px;
-	margin:10px 15px 25px 15px;
+	margin:10px 15px 0px 15px;
 	transition: all 0.3s ease;
 }
 input, textarea{
@@ -102,6 +102,7 @@ textarea{
 	padding-top:22px;
 	width: 90%;
 }
+
 .telefono2,
 .resu,
 .facebook,
@@ -157,5 +158,24 @@ textarea{
 iframe{
 	margin:0 auto;
 	max-width: 100%;
+
+}
+
+.msg{
+	color: white;
+	text-transform: uppercase;
+	margin-top: 18px;
+	float: left;
+	clear: both;
+	text-align: center;
+	width: 450px;
+	margin-left: 15px;
+	font-weight: 400;
+	background: rgba(110,51,102,0.6);
+	border-radius: 7px;
+	font-size: 18px;
+	padding: 6px 0px 6px 0px;
+	filter: grayscale(20%);
+	box-sizing: none;
 
 }
