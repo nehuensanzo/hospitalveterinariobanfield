@@ -4,8 +4,12 @@
 
 
 /*CONEXION CON LOS DATOS DEL HOSTING*/
-  $conexion = mysqli_connect('localhost:3308','nehuen','nehuen1990','productosdb') or die (mysqli_connect_error());
 
+// esta es la conexion de webhostapp
+$conexion = mysqli_connect('localhost','id10899749_nehuensanzo','nehuen1990','id10899749_libro') or die (mysqli_connect_error());
+
+// esta es la conexion de casa:
+// $conexion = mysqli_connect('localhost','root','','productosdb') or die (mysqli_connect_error());
 
 
 
