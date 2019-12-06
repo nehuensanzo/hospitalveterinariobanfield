@@ -52,12 +52,12 @@
 					</div>
 					<div>
 						<a href="https://es-la.facebook.com/" target="_blank">
-						<span  class="facebook">FACEBOOK</span>
+						<span class="facebook icon-facebook2" id="icon-facebook2"></span>
 						</a>
 					</div>
 					<div>
 						<a href="https://www.instagram.com/?hl=es-la" target="_blank">
-						<span class="instagram">INSTAGRAM</span>
+						<span class="instagram icon-instagram2" id="icon-instagram2" ></span>
 						</a>
 					</div>
 				</div>
