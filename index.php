@@ -23,7 +23,7 @@
 	<section class="contenedor">
 		<div class="holder">
 			<p>CUIDADO PROFESIONAL <br/> PARA TU MASCOTA</p>
-			<a class="botonservicios" href="servicios.html">NUESTROS SERVICIOS</a>
+			<a class="botonservicios" href="servicios.php">NUESTROS SERVICIOS</a>
 		</div>	
 	</section>
 	<div class="color">
