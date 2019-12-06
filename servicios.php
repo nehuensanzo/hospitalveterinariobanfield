@@ -86,15 +86,15 @@
 					<img class="imagenServicio" src="img/carrito.png" alt="pulmones"/>
 					<h1 class="tituloServicio">TIENDA ESPECIALIZADA</h1>
 					<p class="descripcionServicio">En nuestras instalaciones dispones de todo tipo de productos <br/> para el bienestar del animal con la ventaja de poder recomendarte lo más adecuado en cada caso.
-					</p>
-				</div>
+				</p>
 			</div>
 		</div>
 	</div>
-	<div class="flechas">
- 		<span class="icon-circle-right" id="flechaderecha"></span>
- 		<span class="icon-circle-left" id="flechaizquierda"></span>
- 	</div>
+		<div class="flechas">
+			<span class="icon-circle-left" id="flechaizquierda"></span>
+			<span class="icon-circle-right" id="flechaderecha"></span>
+		</div>
+	</div>
 	
 	<?php include('inc/pie.php'); ?>
 		
