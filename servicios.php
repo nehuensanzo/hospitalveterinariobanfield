@@ -25,9 +25,9 @@
 	<?php include ('inc/cabezal.php'); ?>
 	<div class="general">
 		<div class="holder">
-			<div id="slider" class="cycle-slideshow" 
+			<div class="cycle-slideshow" 
 					data-cycle-fx="scrollHorz" 
-					data-cycle-speed="500" 
+					data-cycle-speed="2500" 
 					data-cycle-pause-on-hover="true"
 					data-cycle-slides="div"
 					data-cycle-prev="#flechaizquierda"
@@ -85,11 +85,10 @@
 				<div class="contenedor">
 					<img class="imagenServicio" src="img/carrito.png" alt="pulmones"/>
 					<h1 class="tituloServicio">TIENDA ESPECIALIZADA</h1>
-					<p class="descripcionServicio">En nuestras instalaciones dispones de todo tipo de productos <br/> para el bienestar del animal con la ventaja de poder recomendarte lo más adecuado en cada caso.
-				</p>
+					<p class="descripcionServicio">En nuestras instalaciones dispones de todo tipo de productos <br/> para el bienestar del animal con la ventaja de poder recomendarte lo más adecuado en cada caso.</p>
+				</div>
 			</div>
 		</div>
-	</div>
 		<div class="flechas">
 			<span class="icon-circle-left" id="flechaizquierda"></span>
 			<span class="icon-circle-right" id="flechaderecha"></span>
