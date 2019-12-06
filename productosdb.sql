@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `productos` (
   `nombre` text NOT NULL,
   `precio` float NOT NULL,
   `categoria` text NOT NULL,
-  PRIMARY KEY (`idProducto`)
+   PRIMARY KEY (`idProducto`)
 ) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 --
@@ -44,9 +44,29 @@ CREATE TABLE IF NOT EXISTS `productos` (
 --
 
 INSERT INTO `productos` (`idProducto`, `nombre`, `precio`, `categoria`) VALUES
-(1, 'Royal Canin adultos raza grande', 2190, 'Alimentos'),
-(2, 'Royal Canin adultos raza  chica', 2300, 'Alimentos'),
-(3, 'Enrofloxacina', 200, 'Farmacia');
+(1, 'Royal Canin Medium Adult 15kg', 3921, 'Alimentos'),
+(2, 'Royal Canin Mini Adult 7.5kg', 1037, 'Alimentos'),
+(3, 'Royal Canin Maxi Puppy 15kg', 3440,'Alimentos'),
+(4, 'Royal Canin Mini Puppy 15kg', 3580,'Alimentos'),
+(5, 'Royal Canin Calm 15kg', 3110,'Alimentos'),
+(6, 'Royal Canin Mediano Adult 15kg', 3500,'Alimentos'),
+(7, 'Lata Recovery Dog Cat', 220,'Alimentos'),
+(8, 'Brouwer Power Ultra Perros 02-04kg', 340, 'Farmacia'),
+(9, 'Brouwer Power Ultra Perros 04-10kg', 360, 'Farmacia'),
+(10, 'Brouwer Power Ultra Perros 10-20kg', 400, 'Farmacia'),
+(11, 'Brouwer Power Ultra Perros 20-40kg', 420, 'Farmacia'),
+(12, 'Brouwer Power Ultra Perros 40-60kg', 660, 'Farmacia'),
+(13, 'Brouwer Power Ultra Gatos 02-04kg', 340, 'Farmacia'),
+(14, 'Brouwer Power Ultra Gatos 04-08kg', 380, 'Farmacia'),
+(15, 'Comedero y Bebedero Perro', 450, 'Accesorios'),
+(16, 'Comedero y Bebedero Gatos', 520, 'Accesorios'),
+(17, 'Rascador Gato', 680, 'Accesorios'),
+(18, 'Cucha Perro Chico', 780, 'Accesorios'),
+(19, 'Cucha Perro Mediano', 380, 'Accesorios'),
+(20, 'Cucha Perro Grande', 380, 'Accesorios');
+
+
+
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

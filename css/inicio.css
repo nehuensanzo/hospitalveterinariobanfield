@@ -10,13 +10,12 @@ font-family: 'Oswald', sans-serif;*/
 	display: block;
 	opacity: 1;
 	background-image: url(../img/1.jpg);
-	height: 500px;
+	height: 340px;
 	width: 100%;
 	background-size: cover;
-	padding-top: 30px;
+	padding-top: 0px;
 	transition: all 0.5s ease;
 	background-size: 100%;
-	
 }
 .contenedor p{
 
@@ -32,8 +31,6 @@ font-family: 'Oswald', sans-serif;*/
 	margin: 80px 700px 12px 70px;
 	background-color: rgba(110,51,102,0.5);
 	padding: 0px 10px;
-
-
 }
 .contenedor p::before{
 	content: ' ';
@@ -51,7 +48,6 @@ font-family: 'Oswald', sans-serif;*/
 	display: block;
 	opacity: 0.7;
 }
-
 .botonservicios{
 
 	width: 348px;
@@ -104,9 +100,7 @@ font-family: 'Oswald', sans-serif;*/
 		font-family: 'Oswald', sans-serif;
 		text-align: center;
 		width: 100%;
-	
 }
-
 .bannermedio span {
 	
 	font-family: 'Oswald', sans-serif;
@@ -128,8 +122,7 @@ font-family: 'Oswald', sans-serif;*/
 	height: 465px;
 	display: inline-block;
 	margin: auto;
-	}
-
+}
 .contenedor2 .card{
 	width: 305px;
 	height: 430px;
@@ -144,24 +137,20 @@ font-family: 'Oswald', sans-serif;*/
 	display: inline-block;
 	transition: 0.5s all ease;
 }
-
 .contenedor2 .card:hover{
 	transform: translateY(-5px);
 	transform: translateX(-2px);
 	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
-
 .contenedor2 .card img{
 	width: 305px;
 	height: 220px;
 }
- 
 .contenedor2 .card h4{
 	color: rgba(110,51,102,0.9);
 	font-weight: 600;
 	margin: 5px 0;
 	letter-spacing: 0.7px;
-
 }
 .contenedor2 .card p{
 	background-color: rgba(110,51,102,0.8);
@@ -177,28 +166,20 @@ font-family: 'Oswald', sans-serif;*/
 	font-weight: 500;
 	text-decoration: none;
 	color: rgba(110,51,102,0.8);
-	
 }
 
 /*---------------*/
-
 .contenedor3{
 	background-color: rgba(110,51,102,0.7);
-
 }
 .cycle-slideshow{
 	margin-top: 0px;
 	display: block;
 }
-
 .testimonios .cycle-slideshow{
 	font-family: 'Oswald', sans-serif;
 	color: white;	
-
-	
 }
-
-
 .testimonio .cita{
 	font-weight: 200;
 	width: 960px;
@@ -209,7 +190,6 @@ font-family: 'Oswald', sans-serif;*/
 	line-height: 30px;
 	letter-spacing: 5px;
 }
-
 .testimonio .autor{
 	font-size: 1em;
 	text-align: center;
@@ -219,5 +199,4 @@ font-family: 'Oswald', sans-serif;*/
 	display: block;
 	letter-spacing: 3px;
 	font-weight: 200;
-
 }
