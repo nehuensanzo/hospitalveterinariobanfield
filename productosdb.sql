@@ -28,8 +28,7 @@ USE `productosdb`;
 
 --
 -- Estructura de tabla para la tabla `productos`
---
-
+-- Volcado de datos en webhost dentro de la base de datos que me otorga
 DROP TABLE IF EXISTS `productos`;
 CREATE TABLE IF NOT EXISTS `productos` (
   `idProducto` int(11) NOT NULL AUTO_INCREMENT,
